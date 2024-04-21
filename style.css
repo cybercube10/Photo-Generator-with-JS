@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+#logo{
+  font-family: "Noto Sans JP", sans-serif;
+}
+.container {
+  max-width:100%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+input[type="text"] {
+  padding: 8px;
+  width: 60%;
+  margin-bottom: 10px;
+ outline: none;
+ border: none;
+ border-radius: 15px;
+}
+
+input:focus{
+  outline: 2px solid white;
+
+}
+
+#searchDiv{
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: max-content;
+}
+#navbar{
+
+  padding: 5px 10px;
+  position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ED6F70;
+ color: white;
+}
+button {
+  padding: 7px ;
+  border-radius: 50%;
+  background-color: #ED6F70;
+  color: #fff;
+  border: 1px solid white;
+  cursor: pointer;
+  position: absolute;
+  right: 11vw;
+  transition: all 0.3s;
+  top: 0px;
+}
+
+button:hover {
+  background-color: lawngreen;
+}
+
+
+
+#imgContainer{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin-left: 10px;
+margin-top: 7vw;
+}
+
+.inner-cont{
+  width: 300px;
+  aspect-ratio: 1;
+  margin-bottom: 7px;
+  margin-right: 10px;
+}
+
+.showImage{
+  width: 40%;
+  
+  background-color: #ffe369;
+  display: block;
+  margin: auto;
+  aspect-ratio: 1;
+  display: block;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cancelBtn{
+  position: absolute;
+  right: 1vh;
+  top: 1vh;
+  color: white;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  border: 1px solid ;
+  transition: all 0.3s;
+}
+
+.cancelBtn:hover{
+ 
+  cursor: pointer;
+}
